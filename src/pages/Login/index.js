@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { Card, Form, Input, Button, Checkbox, message  } from 'antd'
 import logo from '@/assets/images/logo.png'
 import { useStore } from '@/store'
+import './index.scss'
 
 export default function Index() {
   const navigate = useNavigate()
